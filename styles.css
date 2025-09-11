@@ -1,11 +1,11 @@
 /* Global variables */
 :root {
-  --primary-color: #293461;
-  --secondary-color: #80ed99;
-  --accent-color: #f7603e;
-  --secondary-accent-color: #fb7f0b;
+  --primary-color:#1A227D;
+  --secondary-color:#7D1A22;
+  --accent-color:#1a7d43;
   --text-color: #333333;
-  --white-color: #ffffff;
+  --white-color: #ffffff; 
+  --section-color:#E6E8F5;
 }
 
 *,
@@ -64,6 +64,7 @@ body {
 section {
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: var(--section-color);
 }
 
 .hero-section {
@@ -78,7 +79,7 @@ section {
 }
 
 .responsive-img {
-  width: 700px;
+  width: 650px;
   height: auto;
   margin: 0 auto;
   border-radius: 10px;
